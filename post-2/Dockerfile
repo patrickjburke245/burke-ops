@@ -8,5 +8,4 @@ RUN go mod download
 COPY . .
 RUN go build -v -o /app .
 
-#4
 CMD ["/app"]
